@@ -17,11 +17,11 @@
             <form method="POST" action="{{ route('login') }}">
                 @csrf
                 <div class="mb-3">
-                    <x-jet-label value="{{ __('Email') }}" />
+                    <x-jet-label value="{{ __('Usuario') }}" />
 
-                    <x-jet-input class="{{ $errors->has('email') ? 'is-invalid' : '' }}" type="email"
-                                 name="email" :value="old('email')" required />
-                    <x-jet-input-error for="email"></x-jet-input-error>
+                    <x-jet-input class="{{ $errors->has('username') ? 'is-invalid' : '' }}" type="text"
+                                 name="username" :value="old('username')" required />
+                    <x-jet-input-error for="username"></x-jet-input-error>
                 </div>
 
                 <div class="mb-3">
@@ -36,7 +36,7 @@
                     <div class="custom-control custom-checkbox">
                         <x-jet-checkbox id="remember_me" name="remember" />
                         <label class="custom-control-label" for="remember_me">
-                            {{ __('Remember Me') }}
+                            {{ __('Recordar USuario') }}
                         </label>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <div class="d-flex justify-content-end align-items-baseline">
                         @if (Route::has('password.request'))
                             <a class="text-muted me-3" href="{{ route('password.request') }}">
-                                {{ __('Forgot your password?') }}
+                                {{ __('Olvidaste tu contraseña?') }}
                             </a>
                         @endif
 

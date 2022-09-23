@@ -1,3 +1,13 @@
+@extends('adminlte::page')
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+
+@section('content')
+
 <x-app-layout>
     <x-slot name="header">
         <h2 class="h4 font-weight-bold">
@@ -7,3 +17,16 @@
 
     <x-jet-welcome />
 </x-app-layout>
+
+@stop
+
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
+
+@section('js')
+    <script> console.log('Hi!'); </script>
+@stop
+
+
+
