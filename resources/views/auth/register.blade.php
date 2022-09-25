@@ -11,7 +11,7 @@
                 @csrf
 
                 <div class="mb-3">
-                    <x-jet-label value="{{ __('Name') }}" />
+                    <x-jet-label value="{{ __('Nombre') }}" />
 
                     <x-jet-input class="{{ $errors->has('name') ? 'is-invalid' : '' }}" type="text" name="name"
                                  :value="old('name')" required autofocus autocomplete="name" />

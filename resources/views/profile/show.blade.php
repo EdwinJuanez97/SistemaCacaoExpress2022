@@ -1,24 +1,3 @@
-@extends('adminlte::page')
-
-@section('title', 'Perfil')
-
-@section('content_header')
-
-@stop
-
-@section('content')
-
-@stop
-
-@section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
-@stop
-
-@section('js')
-
-@stop
-
-
 <x-app-layout>
     <x-slot name="header">
         <h2 class="h4 font-weight-bold">

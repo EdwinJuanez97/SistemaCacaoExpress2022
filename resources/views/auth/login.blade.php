@@ -36,7 +36,7 @@
                     <div class="custom-control custom-checkbox">
                         <x-jet-checkbox id="remember_me" name="remember" />
                         <label class="custom-control-label" for="remember_me">
-                            {{ __('Recordar USuario') }}
+                            {{ __('Recordar contraseña') }}
                         </label>
                     </div>
                 </div>
