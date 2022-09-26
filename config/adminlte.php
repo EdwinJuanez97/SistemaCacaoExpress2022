@@ -86,7 +86,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'vendor/adminlte/dist/img/CacaoExpress.png',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -109,11 +109,11 @@ return [
     'preloader' => [
         'enabled' => true,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'vendor/adminlte/dist/img/CacaoExpress.png',
             'alt' => 'AdminLTE Preloader Image',
             'effect' => 'animation__shake',
-            'width' => 60,
-            'height' => 60,
+            'width' => 250,
+            'height' => 250,
         ],
     ],
 
@@ -306,20 +306,21 @@ return [
 
         [
             'text' => 'Seguridad',
+
             'icon' => 'fas fa-shield-alt',
             'submenu' => [
 
                 [
-                    'text'    => 'Usuario',
-                    'url'     => '#',
+                    'text'    => 'Usuarios',
+                    'url' => 'admin/settings',
                 ],
                 [
                     'text'    => 'Roles',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
 
             ],
@@ -333,15 +334,15 @@ return [
 
                 [
                     'text'    => 'Facturacion',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
 
             ],
@@ -354,15 +355,15 @@ return [
 
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'admin/settings',
                 ],
 
             ],
@@ -375,16 +376,32 @@ return [
             'submenu' => [
 
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
+                    'text'    => 'Reportes de ventas',
+                    'url'     => 'admin/settings',
                 ],
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
+                    'text'    => 'Reportes de Productos',
+                    'url'     => 'admin/settings',
                 ],
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
+                    'text'    => 'Reporte de Proveerodes',
+                    'url'     => 'admin/settings',
+                ],
+                [
+                    'text'    => 'Reporte de Compras',
+                    'url'     => 'admin/settings',
+                ],
+                [
+                    'text'    => 'Reporte de Usuarios',
+                    'url'     => 'admin/settings',
+                ],
+                [
+                    'text'    => 'Reporte de Clientes',
+                    'url'     => 'admin/settings',
+                ],
+                [
+                    'text'    => 'Reporte de Roles',
+                    'url'     => 'admin/settings',
                 ],
 
             ],
