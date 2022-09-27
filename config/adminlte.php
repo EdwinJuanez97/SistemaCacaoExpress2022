@@ -318,11 +318,6 @@ return [
                     'text'    => 'Roles',
                     'url'     => 'admin/settings',
                 ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => 'admin/settings',
-                ],
-
             ],
 
         ],
@@ -333,18 +328,13 @@ return [
             'submenu' => [
 
                 [
-                    'text'    => 'Facturacion',
+                    'text'    => 'Realizar Venta',
                     'url'     => 'admin/settings',
                 ],
                 [
-                    'text'    => 'level_one',
+                    'text'    => 'Facturas',
                     'url'     => 'admin/settings',
                 ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => 'admin/settings',
-                ],
-
             ],
         ],
 
@@ -354,15 +344,19 @@ return [
             'submenu' => [
 
                 [
-                    'text'    => 'level_one',
+                    'text'    => 'Proveedores',
                     'url'     => 'admin/settings',
                 ],
                 [
-                    'text'    => 'level_one',
+                    'text'    => 'Categorias',
                     'url'     => 'admin/settings',
                 ],
                 [
-                    'text'    => 'level_one',
+                    'text'    => 'Mantenimiento Compras',
+                    'url'     => 'admin/settings',
+                ],
+                [
+                    'text'    => 'Agregar/Eliminar',
                     'url'     => 'admin/settings',
                 ],
 
