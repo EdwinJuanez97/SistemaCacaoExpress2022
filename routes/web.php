@@ -22,7 +22,10 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
-    Route::get('/InicioHome', function () {
+    Route::get('/Cacao_Home', function () {
         return view('Cacao_Home.index');
     })->name('Cacao_Home');
+
+
+    Route::resource('ReportesVentas',ReportesVentasController::class)->names('ReportesVentas');
 });
